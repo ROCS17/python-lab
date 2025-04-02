@@ -16,13 +16,13 @@ Este proyecto es un entorno de laboratorio en Python diseñado para ejecutar pru
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/RogerCS17/python-lab.git
+   git clone https://github.com/ROCS17/python-lab.git
    cd python-lab
    ```
 2. Crea y activa un entorno virtual (opcional pero recomendado):
    ```bash
-   python3 -m venv .venv        # En Windows: python -m venv . venv
-   source venv/bin/activate     # En Windows: venv\Scripts\activate
+   python -m venv .venv
+   .\.venv\Scripts\activate
    ```
 3. Instala las dependencias (opcional):
    ```bash
@@ -34,5 +34,5 @@ Este proyecto es un entorno de laboratorio en Python diseñado para ejecutar pru
 Ejecutar algún ejercicio, por ejemplo:
 ```bash
 cd src/codewars/
-python3 kata001.py              # En Windows python kata001.py
+python kata001.py
 ```
