@@ -1,5 +1,5 @@
 """
-Count by X
+8 kyu - Count by X
 
 Create a function with two arguments that will return an array of the first n multiples of x.
 

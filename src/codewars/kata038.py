@@ -1,5 +1,5 @@
 """
-You're a square!
+7 kyu - You're a square!
 
 A square of squares
 
@@ -28,7 +28,7 @@ def is_square(n):
     if n < 0:
         return False
     else:
-        return True if (n**0.5) == int((n**0.5)) else False
+        return True if (n ** 0.5) == int((n ** 0.5)) else False
 
 
 print(is_square(25))

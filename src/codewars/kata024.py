@@ -1,5 +1,5 @@
 """
-Sum of positive
+8 kyu - Sum of positive
 
 Task
 You get an array of numbers, return the sum of all of the positives ones.

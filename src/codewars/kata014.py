@@ -1,5 +1,5 @@
 """
-Beginner - Lost Without a Map
+8 kyu - Beginner - Lost Without a Map
 
 Given an array of integers, return a new array with each value doubled.
 For example:

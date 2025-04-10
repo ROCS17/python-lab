@@ -1,5 +1,5 @@
 """
-Mexican Wave
+6 kyu - Mexican Wave
 
 In this simple Kata your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return that string in an array where an uppercase letter is a person standing up.
 
@@ -17,7 +17,7 @@ def wave(people: str):
     for i, char in enumerate(people):
         if char == " ":
             continue
-        wave_word = people[:i] + people[i].upper() + people[i + 1 :]
+        wave_word = people[:i] + people[i].upper() + people[i + 1:]
         list_wave.append(wave_word)
     return list_wave
 

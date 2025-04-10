@@ -1,5 +1,5 @@
 """
-Take a Ten Minutes Walk
+6 kyu - Take a Ten Minutes Walk
 
 You live in the city of Cartesia where all roads are laid out in a perfect grid. You arrived ten minutes too early to an appointment,
 so you decided to take the opportunity to go for a short walk. The city provides its citizens with a Walk Generating App on their phones --
@@ -27,9 +27,9 @@ def is_valid_walk(walk: list):
 
 def isValidWalk(walk):
     return (
-        len(walk) == 10
-        and walk.count("n") == walk.count("s")
-        and walk.count("e") == walk.count("w")
+            len(walk) == 10
+            and walk.count("n") == walk.count("s")
+            and walk.count("e") == walk.count("w")
     )
 
 

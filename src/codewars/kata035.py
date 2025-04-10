@@ -1,5 +1,5 @@
 """
-Tribonacci Sequence
+6 kyu - Tribonacci Sequence
 
 Well met with Fibonacci bigger brother, AKA Tribonacci.
 

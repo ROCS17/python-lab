@@ -1,5 +1,5 @@
 """
-Beginner Series #2 Clock
+8 kyu - Beginner Series #2 Clock
 
 Clock shows h hours, m minutes and s seconds after midnight.
 
@@ -20,7 +20,6 @@ Input constraints:
 
 
 def past(h, m, s):
-
     return (
         h * 3600000 + m * 60000 + s * 1000
         if (0 <= h <= 230) and (0 <= m <= 59) and (0 <= s <= 59)

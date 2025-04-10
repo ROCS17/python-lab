@@ -1,5 +1,5 @@
 """
-Sum of odd numbers
+7 kyu - Sum of odd numbers
 
 Given the triangle of consecutive odd numbers:
 
@@ -16,7 +16,7 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 
 def row_sum_odd_numbers(n):
-    return n**3
+    return n ** 3
 
 
 print(row_sum_odd_numbers(3))

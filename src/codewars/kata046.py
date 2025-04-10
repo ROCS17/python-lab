@@ -1,5 +1,5 @@
 """
-Square Every Digit
+7 kyu - Square Every Digit
 
 Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
 
